@@ -1,0 +1,103 @@
+.body {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    width: 200px;
+    height: 60px;
+    background: rgb(189, 125, 6);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px; 
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.instructions {
+    width: 50%;
+    height: 220px;
+    background: rgb(199, 198, 171);
+    color: steelblue;
+    text-align: left;
+    padding-top: 20px; 
+    margin-top: 15px;
+    margin-left: 15px;
+    overflow: auto;
+}
+
+.p {
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+.random-number {
+    width: 20%;
+    height: 90px;
+    padding-top: 20px; 
+    margin-top: 15px;
+    margin-left: 15px;
+    background: aqua;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.win-lose {
+    float: left;
+    width: 40px;
+    height: 60px;
+    background: aqua;
+    text-align: center;
+    padding-top: 20px; 
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+
+.gem-container {
+    clear: both;
+    
+}
+
+#purple-gem {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#green-gem {
+    float: left;
+    margin-left: 5px;
+}
+
+#yellow-gem {
+    float: left;
+    margin-left: 5px;
+}
+
+#blue-gem {
+    float: left;
+    margin-left: 5px;
+}
+
+#below-gems {
+    clear: both;
+    height: 20px;
+    width: 200px;
+    background: aqua;
+    color: red;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#total-score {
+    width: 200px;
+    height: 100px;
+    background: aqua;
+    color: red;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
