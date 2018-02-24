@@ -5,8 +5,8 @@ $(document).ready(function() {
 
 //global variable
     var randomNumber = "";
-    var wins = 0;
-    var losses = 0;
+    var wins = "";
+    var losses = "";
     var userScore = "";
     var gameOver = false;
 
@@ -46,21 +46,30 @@ $(".gems").on("click", function() {
     if (userScore === randomNumber) {
         gameOver = true;
         wins++;
-        $("#wins").html(wins);
+        $("#wins").html("You win!");
     };
 
     if (userScore > randomNumber) {
         gameOver = true;
         losses++;
-        $("#losses").html(losses);
+        $("#losses").html("You lose!");
     };
 
+
+    
 });
+
+    $(".restart").on("click", function () {
+        location.reload();
+
+    });
+
+
 
 //when total score equals random score add to wins, if it goes over, add to losses
 
 //restart game when random number matches total score
-newGame();
+// newGame();
 
 console.log(randomNumber);
 

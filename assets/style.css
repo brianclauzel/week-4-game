@@ -1,103 +1,127 @@
+
 .body {
     height: 100%;
     width: 100%;
 }
 
 .title {
-    width: 200px;
-    height: 60px;
-    background: rgb(189, 125, 6);
-    color: white;
+    width: 100%;
+    height: 80px;
+    background: rgb(248, 248, 248);
+    color: rgb(87, 85, 85);
     font-size: 30px;
     text-align: center;
-    padding-top: 20px; 
-    margin-top: 15px;
-    margin-left: 15px;
+    padding-top: 35px; 
+    margin-bottom: 50px;
+    font-size: 40px;
 }
 
 .instructions {
-    width: 50%;
-    height: 220px;
-    background: rgb(199, 198, 171);
-    color: steelblue;
-    text-align: left;
+    width: 75%;
+    height: 240px;
+    /* background: white; */
+    color: white;
+    text-align: center;
     padding-top: 20px; 
+    margin-bottom: 40px;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: auto;
+    line-height: 1.5;
+    /* opacity: .7; */
 }
 
 .p {
     padding-bottom: 15px;
     padding-left: 5px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.hr1 {
+    width: 85%;
+}
+
+.random-container {
+    width: 20%;
+    height: 50px;
+    padding-top: 20px; 
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: gray; */
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Arial', Helvetica, sans-serif;
+    /* float: left; */
+}
+
+.random-words {
+    margin-bottom: 15px;
 }
 
 .random-number {
-    width: 20%;
-    height: 90px;
-    padding-top: 20px; 
-    margin-top: 15px;
-    margin-left: 15px;
-    background: aqua;
-    margin-bottom: 10px;
-    float: left;
+    font-size: 30px;
 }
 
 .win-lose {
-    float: left;
-    width: 40px;
+    /* float: left; */
+    width: 80px;
     height: 60px;
-    background: aqua;
+    /* background:gray; */
     text-align: center;
     padding-top: 20px; 
     margin-top: 15px;
-    margin-left: 15px;
-    
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 30px;
 }
 
-.gem-container {
-    clear: both;
-    
+.gem-container { 
+    justify-content: center;
+    display: flex;
 }
 
-#purple-gem {
-    float: left;
-    margin-bottom: 10px;
-    margin-left: 15px;
-}
-
-#green-gem {
-    float: left;
-    margin-left: 5px;
-}
-
-#yellow-gem {
-    float: left;
-    margin-left: 5px;
-}
-
-#blue-gem {
-    float: left;
-    margin-left: 5px;
+.gems {
+    margin: 20px;
+    background: rgb(80, 80, 80);    
 }
 
 #below-gems {
-    clear: both;
+
     height: 20px;
     width: 200px;
-    background: aqua;
-    color: red;
-    text-align: left;
+    /* background: gray; */
+    color: white;
+    text-align: center;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 
 #total-score {
-    width: 200px;
-    height: 100px;
-    background: aqua;
-    color: red;
-    text-align: left;
+    width: 40px;
+    height: 30px;
+    /* background: gray; */
+    color: white;
+    text-align: center;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.restart {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
